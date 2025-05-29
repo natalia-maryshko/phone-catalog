@@ -8,27 +8,27 @@
   cursor: pointer;
 
   &--favourites {
-    background-image: url(src/images/icons/Favourites.svg);
+    background-image: url(/icons/Favourites.svg);
   }
 
   &--favourites-active {
-    background-image: url(src/images/icons/ActiveFavourite.svg);
+    background-image: url(/icons/ActiveFavourite.svg);
   }
 
   &--search {
-    background-image: url(src/images/icons/Search.svg);
+    background-image: url(/icons/Search.svg);
   }
 
   &--cart {
-    background-image: url(src/images/icons/Cart.svg);
+    background-image: url(/icons/Cart.svg);
   }
 
   &--up {
-    background-image: url(src/images/icons/ButtonUp.svg);
+    background-image: url(/icons/ButtonUp.svg);
   }
 
   &--left {
-    background-image: url(src/images/icons/ButtonLeft.svg);
+    background-image: url(/icons/ButtonLeft.svg);
     padding: 8px;
     border: 1px solid $icons-gray;
 
@@ -40,11 +40,11 @@
   &--disabled-left {
     cursor: default;
     border: 1px solid $elements-gray;
-    background-image: url(src/images/icons/DisabledLeft.svg);
+    background-image: url(/icons/DisabledLeft.svg);
   }
 
   &--right {
-    background-image: url(src/images/icons/ButtonRight.svg);
+    background-image: url(/icons/ButtonRight.svg);
     padding: 8px;
     border: 1px solid $icons-gray;
 
@@ -56,20 +56,20 @@
   &--disabled-right {
     cursor: default;
     border: 1px solid $elements-gray;
-    background-image: url(src/images/icons/DisabledRight.svg);
+    background-image: url(/icons/DisabledRight.svg);
   }
 
   &--home {
-    background-image: url(src/images/icons/Home.svg);
+    background-image: url(/icons/Home.svg);
   }
 
   &--close {
-    background-image: url(src/images/icons/Close.svg);
+    background-image: url(/icons/Close.svg);
   }
 
   &--minus {
     border: 1px solid $elements-gray;
-    background-image: url(src/images/icons/Minus.svg);
+    background-image: url(/icons/Minus.svg);
 
     &:hover {
       border-color: $primary-gray;
@@ -87,7 +87,7 @@
 
   &--plus {
     border: 1px solid $elements-gray;
-    background-image: url(src/images/icons/Plus.svg);
+    background-image: url(/icons/Plus.svg);
 
     &:hover {
       border-color: $primary-gray;
@@ -95,6 +95,6 @@
   }
 
   &--menu {
-    background-image: url(src/images/icons/Menu.svg);
+    background-image: url(/icons/Menu.svg);
   }
 }
